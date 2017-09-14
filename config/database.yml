@@ -1,0 +1,15 @@
+default: &default
+  adapter: postgresql
+  encoding: utf8
+  username: muktesh
+  password: 
+  host: localhost
+  port: 5432
+
+development:
+  <<: *default
+  database: blog_dev
+
+test:
+  <<: *default
+  database: blog_test
