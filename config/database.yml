@@ -10,6 +10,10 @@ development:
   <<: *default
   database: blog_dev
 
+production:
+  <<: *default
+  database: blog_prod
+
 test:
   <<: *default
   database: blog_test
