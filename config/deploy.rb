@@ -14,7 +14,7 @@ set :domain, '35.184.33.219'
 set :deploy_to, '/var/www/md_rails'
 set :repository, 'git@github.com:dmoksh-vfip/blog.git'
 set :branch, 'master'
-
+set :rails_env, 'production'
 # Optional settings:
   set :user, 'dmuktesh10'          # Username in the server to SSH to.
 #   set :port, '30000'           # SSH port number.
